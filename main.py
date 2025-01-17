@@ -4,7 +4,6 @@ from deta import app
 from send_email import send_email  # local python module
 
 
-# Public GoogleSheets url - not secure!
 SHEET_ID = "<GOOGLE_SHEET_ID>"  # !!! CHANGE ME !!!
 SHEET_NAME = "<SHEET_NAME>"  # !!! CHANGE ME !!!
 URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet={SHEET_NAME}"
